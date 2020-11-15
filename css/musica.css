@@ -1,43 +1,67 @@
 /* MÚSICA */
-
+#musica {
+    margin: auto;
+    max-width: 1100px;
+}
 /* albuns */
+.albuns {
+    margin: auto;
+    margin-top: 5em;
+    
+}
+
 .albuns-main{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 200px;
+    flex-direction: column;
+    padding: 0 auto;
     height: auto;
+    margin: auto;
 }
 
 .albuns-titulo{
     color: #D5423E;
     font: normal normal bold 50px/1.4em raleway-semibold,raleway,sans-serif;;
     margin: 30px 0;
+
 }
 
 .albuns {
-    width: 100%;
-    padding-top: 130px;
+    /* display: flex; */
+    flex-direction: column;
+    width: auto;
+    min-width: 1100px;
     height: auto;
 }
 
 .albuns-container{
     display: flex;
-    justify-content: space-around;
-    width: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: inherit;
 }
 
 .albuns-itens {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 258px;
+    width: auto;
+    margin: auto;
+    justify-content: space-between;
 }
 
-.albuns-itens:first-child{
+/* .albuns-itens:first-child{
     margin-left: 0;
-}
+} */
 
 .redes-lista {
     display: flex;
+}
+
+.albuns-capa {
+    width: auto;
+    height: auto;
 }
 
 .albuns-capa img {
@@ -47,8 +71,6 @@
 }
 
 .albuns-media{
-    width: 258px;
-    margin: 10px;
     display: flex;
     justify-content: center;
 }
@@ -61,10 +83,20 @@
 
 /* músicas */
 
+.musicas {
+    margin: auto;
+    width: auto;
+    /* padding: auto; */
+    max-width: 1100px;
+}
+
 .musicas-container {
+    width: auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .musicas-capa img {

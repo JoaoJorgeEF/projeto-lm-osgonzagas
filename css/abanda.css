@@ -1,14 +1,22 @@
 /*  A Banda  */
 
+#a-banda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} 
+
 .abanda-main {
     display: flex;
     flex-direction: column;
-    width: 848px;
     font-family: 'raleway-semibold','raleway',sans-serif;
     padding-bottom: 20px;
     color: #1f1f1f;
     padding: 0 200px;
     align-items: center;
+    max-width: 1100px;
+    justify-content: center;
 }
 
 .abanda-titulo{
@@ -18,14 +26,15 @@
     font-size: 3.3em;
     align-self: start;
     font-family: 'raleway-semibold','raleway',sans-serif;
-    padding: 0.8em 0;
-    margin-top: 130px;
+    margin-bottom: 0.5em;
+    margin-top: 3em;
+    
 }
 
 .abanda-texto {
     text-align: justify;
     padding: 30px 0;
-
+    
 }
 
 .abanda-texto p {
@@ -34,18 +43,31 @@
     margin-block-end: 1em;
     line-height: normal;
     font-size: 1.2em;
+    max-width: 1100px;
 }
 
+.abanda-banner {
+    max-width: 100%;
+    
+    
+}
 .integrantes {
     position: relative;
     margin-bottom: 5em;
+    display: flex;
+
+    
 }
+/*  */
 
 .integrantes-lista{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+    display: grid;
+    grid-template-areas: 
+    "i1 i2 i3 i4"
+    "i5 i6 i7 i8";
     justify-content: space-between;
+    grid-gap: 80px;
     
     
 }
@@ -54,8 +76,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 30px;
-    margin-bottom: 30px;
 }
 
 .integrantes-img {
@@ -99,8 +119,3 @@
     height: 26px;
 }
 
-.abanda-banner {
-    width: 848px;
-    height: 396px;
-    object-fit: cover;
-}

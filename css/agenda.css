@@ -9,8 +9,7 @@
     height: auto;
     justify-items: center;
     margin: auto;
-    padding-bottom: 20px;
-    width: 100%;
+    max-width: 1100px;
 }
 
 .agenda-titulo{
@@ -23,8 +22,8 @@
     justify-self: start;
     margin-top: 100px;
     padding:  1.3em;
-    padding-left: 200px;
     position: relative;
+    padding-left: 0;
 }
 
 .carrosel {
@@ -92,9 +91,8 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
     padding: 50px;
-    width: 846px;
+    width: 848px;
 }
 
 .agenda-data {
