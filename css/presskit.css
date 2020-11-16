@@ -76,3 +76,38 @@
 .presskit-itens:hover {
     color: #f8be00
 }
+
+@media screen and (max-width: 375px) {
+
+
+    .presskit-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        margin: auto;
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .presskit-titulo {
+        font-size: .7rem;
+        margin-top: 10em;
+        margin-bottom: 3em;
+    }
+
+    .presskit-imagem img {
+        display: none;
+    }
+
+    .presskit-h1 {
+        text-align: center;
+        margin-bottom: 1.2em;
+    }
+
+    .presskit-texto {
+        text-align: center;
+        font-size: 2em;
+    }
+}
