@@ -73,3 +73,25 @@ li a:hover{
     margin-right: 0px;
     top: 0px;
 }
+
+
+/* Responsividade */
+
+@media screen and (max-width: 375px) {
+    
+    header {
+        position: relative;
+        max-width: 375px;
+    }
+    
+    .menu {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .container-menu {
+        justify-content: center;
+        display: none;
+    }
+
+}

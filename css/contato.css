@@ -167,3 +167,66 @@ input:focus {
 .contrate-botao:hover {
     background-color: #f8be00;
 }
+
+
+@media screen and (max-width: 375px) {
+
+
+    .contato-main {
+        padding-top: 8em;
+        justify-content: space-around;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+
+    }
+
+    .contato-titulo {
+        font-size: 2.5em;
+        width: 100%;
+    }
+
+    .contato-h1 {
+        text-align: center;
+    }
+    .contatos {
+        padding-bottom: 3em;
+    }
+
+    .contrate-titulo {
+        font-size: 2.5em;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contrate-campos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        min-width: 375px;
+    }
+
+    .contrate-formulario {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        min-width: 375px;
+    }
+
+    .contrate-campos input{
+        width: 80%;
+    }
+
+    .contrate-formulario textarea {
+        width: 320px;
+    }
+
+
+    .contrate-enviar {
+        padding: 0;
+        justify-content: center;
+
+    }
+    .contrate-botao  {
+        width: 322px;
+}
