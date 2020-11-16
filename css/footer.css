@@ -53,3 +53,11 @@ footer li {
     border: 0;
     padding: 10px;
 }
+
+
+@media screen and (max-width: 375px) {
+
+    .div-deezer {
+        display: none;
+    }
+}

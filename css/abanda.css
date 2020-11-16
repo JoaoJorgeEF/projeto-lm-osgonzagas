@@ -119,3 +119,54 @@
     height: 26px;
 }
 
+/* Responsividade */
+
+@media screen and (max-width: 375px) {
+
+    .abanda-main {
+        padding: 0;
+    }
+    
+    .gallery {
+        display: none;
+    }
+    
+    .abanda-titulo {
+        align-self: center;
+        font-size: 2.5em;
+        margin: 1em;
+    }
+
+    .abanda-texto p { 
+        padding: 0 30px;
+        font-size: 1.3em;
+    }
+    
+    .integrantes {
+        margin-bottom: 0;
+    }
+
+    .integrantes-lista{
+        grid-template-areas: 
+        "i1" 
+        "i2" 
+        "i3"
+        "i4"
+        "i5" 
+        "i6" 
+        "i7" 
+        "i8";
+        grid-gap: 40px;
+    }
+    
+    .integrantes-item {
+        height: 250px;
+        width: 250px;
+    }
+
+    .integrantes-li p, .integrantes-li span {
+        align-self: center;
+        line-height: 1.3em;
+        font-size: 1em;
+    }
+}

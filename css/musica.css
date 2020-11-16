@@ -2,6 +2,7 @@
 #musica {
     margin: auto;
     max-width: 1100px;
+    padding: 0 200px;
 }
 /* albuns */
 .albuns {
@@ -136,4 +137,91 @@
 .videos-capa {
     object-fit: cover;
     margin-bottom: 70px;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 375px) {
+
+    #musica {
+        padding: 0;
+    }
+
+    .titulo-container {
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .albuns-titulo {
+        text-align: center;
+        margin: 0 0 .5em 0;
+        font-size: 2.5em;
+    }
+
+    .albuns {
+        min-width: 375px;
+    }
+
+    .musicas {
+        min-width: 375px;
+        margin: auto;
+    }
+
+    .musicas-titulo {
+        text-align: center;
+        margin: .5em 0;
+        font-size: 3em;
+    }
+
+    .albuns-main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        }
+
+    .albuns-container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .albuns-capa img, .musicas-capa img {
+        height: 20em;
+        width: 20em;
+    }
+
+    .redes-sociais img{
+        height: 2em;
+        width: 2em;
+        padding: .5em;   
+    }
+
+    .albuns-itens, .musicas-itens {
+        margin-bottom: 2em;
+    }
+
+    .musicas-container {
+        margin: 20px 20px 0px 20px;
+    }
+
+    .videos {
+        margin-bottom: 0;
+    }
+    
+    .videos-capa iframe{
+        height: 10em;
+        width: 20em;
+    }
+
+    .videos-titulo {
+        text-align: center;
+        margin: .5em 0;
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+
+
+
+
 }
